@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>mailhub</title>
+<style>
+:root{--bg:#fff;--text:#1d1d1f;--muted:#555;--accent:#2563eb}
+@media (prefers-color-scheme:dark){:root{--bg:#141416;--text:#ececf0;--muted:#a0a0aa;--accent:#7aa2ff}}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 system-ui,-apple-system,sans-serif}
+main{max-width:680px;margin:0 auto;padding:40px 16px}
+h1{font-size:28px;margin:0 0 4px}.sub{color:var(--muted);margin:0 0 28px}
+a{color:var(--accent)}code{font-size:14px}
+</style>
+</head>
+<body>
+<main>
+<h1>mailhub</h1>
+<p class="sub">A personal, self-hosted, read-only Gmail mirror.</p>
+
+<p>mailhub is a private tool that runs on its owner's own computer at home. It keeps a
+read-only copy of the owner's own Gmail accounts so they can search them locally, including
+through an AI assistant on their home network.</p>
+
+<ul>
+<li><b>Read-only:</b> it only requests the <code>gmail.readonly</code> permission. It cannot
+send, delete, label or change any email.</li>
+<li><b>Private:</b> it is not a public service. Only the owner connects their own accounts,
+and mail is stored only on the owner's device.</li>
+<li><b>No third parties:</b> no data is sold, shared or sent to any server operated by the
+developer.</li>
+</ul>
+
+<p><a href="privacy.html">Privacy policy</a></p>
+</main>
+</body>
+</html>
